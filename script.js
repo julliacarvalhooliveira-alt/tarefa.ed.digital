@@ -1,6 +1,6 @@
 const botoesCurtir = documento.querySelectorAll(".curtir")
-botoesCurtir.forEach(function(botaoCurtir) {
-    let curtiu = false;
+botoesCurtir.forEach (function(botaoCurtir){
+    let curtir = false;
     botaoCurtir.addEventlistener("click", curtir);
     function curtir(){
         const contador = botaoCurtir.querySelector("span");
@@ -12,4 +12,4 @@ botoesCurtir.forEach(function(botaoCurtir) {
             curtiu = false;
         }
     }
-}
+})  
