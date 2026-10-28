@@ -10,7 +10,13 @@ header {
   color: white;
   text-align: center;
   padding: 30px;
-}
+.tema-escuro{
+   --cor-fundo: 
+   --cor-texto:
+   --cor-principal:
+   --cor-superficie:
+   --cor-card:
+   
 
 h1 {
   font-size: 36px;
@@ -107,4 +113,14 @@ button:hover {
     display: block;
     width: fit-content;
     margin: 20px auto;
+}
+
+.btn-tema {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 22px;
 }
