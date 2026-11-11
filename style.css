@@ -50,9 +50,9 @@ nav {
 }
 
 nav a {
-  color: white;
+  color: rgb(3, 3, 3);
   text-decoration: none;
-  background-color: #9b4d83;
+  background-color: #f8f2f6;
   padding: 10px 15px;
   border-radius: 8px;
   margin: 5px;
@@ -96,6 +96,7 @@ figcaption {
   margin: 15px 0;
   border-left: 6px solid #6b2d5c;
   border-radius: 10px;
+  flex: 1 1 300px;
 }
 
 .card h3 {
